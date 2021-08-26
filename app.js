@@ -11,6 +11,11 @@ app.get('/', (req, res) => {
   )
 })
 
+app.get('/_healthcheck', (req, res) => {
+  res.send('healthy')
+})
+
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
