@@ -15,7 +15,7 @@
   * <img src="https://user-images.githubusercontent.com/55393832/131186892-f4bb615c-84d3-4a27-8da2-a59573dc591e.jpg" width="60%">
 
 * Configure the build - this demonstrates a BuildPack build, to create with a Dockerfile, set the BuildType to "Dockerfile" and set the Dockerfile Name to the match the Dockerfile in the root of this repo ("Dockerfile").  Note the 'procfile entry' field matches the key of the field from the repository Procfile that contains the application startup command.
-  * <img src="(https://user-images.githubusercontent.com/55393832/131187055-d7aa95b0-0593-465c-938e-9f1fab60395c.jpg" width="60%">
+  * <img src="https://user-images.githubusercontent.com/55393832/131187055-d7aa95b0-0593-465c-938e-9f1fab60395c.jpg" width="60%">
 
 * Set the port to the port this application will run on, 8081.  Modify the scale/ram/cpu to meet your needs.
   * <img src="https://user-images.githubusercontent.com/55393832/131187421-1d1006df-c196-4be2-9aa9-87e62e634e7d.jpg" width="60%">
